@@ -6,6 +6,7 @@ for experiment in [100,1000,10000,100000]:
 
     # Perform coin flips for the number of times specified by experiment
     for i in range(experiment):
+        
         # Generate a random number (0 or 1) to simulate a coin flip
         if randrange(2) == 0: heads = heads + 1  # Increment heads counter if result is 0
         else: tails = tails + 1                  # Increment tails counter if result is 1
